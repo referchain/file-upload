@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(180deg, #0a0a2a 0%, #2a0a2a 100%);
+  color: #e0e0e0; /* Light grey text for dark theme */
+  min-height: 100vh;
+  /* Remove centering for full page layout */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+#root {
+  width: 100%;
+  /* max-width: 400px; Remove max-width for full page layout */
+  padding: 0; /* Remove padding */
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+button {
+  border-radius: 5px; /* Slightly smaller border radius */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Adjust padding */
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #007bff; /* Primary button color */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px; /* Slightly more padding */
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #555; /* Darker border */
+  background-color: #2a2a4a; /* Darker background */
+  color: #fff;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px; /* More space below label */
+  color: #ccc;
+  font-weight: bold; /* Bold labels */
+}
+
+.card {
+  background-color: #1a1a3a; /* Darker card background */
+  border-radius: 8px; /* Slightly smaller border radius */
+  padding: 25px; /* More padding */
+  margin-bottom: 20px;
+  /* backdrop-filter: blur(10px); Remove blur */
+  border: 1px solid #3a3a5a; /* Darker border */
+}
+
+.form-group {
+  margin-bottom: 20px; /* More space between form groups */
+}
+
+.error {
+  color: #ff6b6b; /* Reddish error color */
+  margin-top: 10px;
+  font-size: 0.9em; /* Smaller error text */
+}
+
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3; /* Darker link color on hover */
+}
+
+/* Add styles for the overall app container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Style for the main content area to push footer down */
+.main-content-area {
+  flex-grow: 1;
+  padding: 20px;
+}

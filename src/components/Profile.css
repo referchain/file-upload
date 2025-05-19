@@ -1,0 +1,42 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #0a0a2a 0%, #2a0a2a 100%);
+  color: #e0e0e0;
+}
+
+.profile-card {
+  background-color: #1a1a3a;
+  border-radius: 8px;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px; /* Adjust max-width for profile card */
+  text-align: left; /* Align text to left */
+  border: 1px solid #3a3a5a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center; /* Center the heading */
+}
+
+.profile-info p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.profile-info p strong {
+  color: #fff; /* Make labels slightly brighter */
+  margin-right: 5px;
+}
+
+/* Add more styles for other sections as needed */

@@ -1,0 +1,187 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #0a0a2a 0%, #2a0a2a 100%);
+  color: #e0e0e0;
+}
+
+.login-card {
+  background-color: #1a1a3a;
+  border-radius: 8px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid #3a3a5a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.app-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.login-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.login-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #2a2a4a;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  font-size: 0.9em;
+  margin-top: 5px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  color: #0056b3;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.or-divider {
+  margin: 20px 0;
+  color: #555;
+  position: relative;
+  text-align: center;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #555;
+}
+
+.or-divider::before {
+  left: 0;
+}
+
+.or-divider::after {
+  right: 0;
+}
+
+.social-button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-button img {
+  margin-right: 10px;
+  height: 20px;
+}
+
+.google-button {
+  background-color: #3a3a5a;
+  color: white;
+}
+
+.google-button:hover {
+  background-color: #2a2a4a;
+}
+
+.phone-button {
+  background-color: #3a3a5a;
+  color: white;
+}
+
+.phone-button:hover {
+  background-color: #2a2a4a;
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  color: #0056b3;
+}
+
+.return-link {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.return-link a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.return-link a:hover {
+  color: #e0e0e0;
+}
+
+/* Styles for Signup page (reusing login styles) */
+/* .login-container, .login-card, .form-group, .login-button, .signup-link classes are already defined above */

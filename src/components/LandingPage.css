@@ -1,0 +1,162 @@
+.landing-page-container {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #e0e0e0; /* Light grey text for dark theme */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #0a0a2a 0%, #2a0a2a 100%); /* Match body background */
+}
+
+.landing-header {
+  background: #1a1a3a; /* Darker header background */
+  padding: 1rem 0;
+  border-bottom: 1px solid #3a3a5a; /* Darker border */
+}
+
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.landing-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #007bff; /* Example brand color */
+}
+
+.landing-nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ccc; /* Lighter link color */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.landing-nav-links a:hover {
+  color: #007bff; /* Primary color on hover */
+}
+
+.landing-section {
+  padding: 4rem 1rem;
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-content {
+  background: none; /* Remove background */
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff; /* White color for heading */
+}
+
+.main-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #e0e0e0; /* Light grey text */
+}
+
+.landing-buttons button {
+  margin: 0 10px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.landing-buttons button:first-child {
+  background: #007bff; /* Primary button color */
+  color: white;
+}
+
+.landing-buttons button:first-child:hover {
+  background: #0056b3; /* Darker shade on hover */
+}
+
+.landing-buttons button:last-child {
+  background: #3a3a5a; /* Darker secondary button color */
+  color: white;
+}
+
+.landing-buttons button:last-child:hover {
+  background: #2a2a4a; /* Even darker shade on hover */
+}
+
+.why-choose h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff; /* White color for heading */
+}
+
+.landing-features-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto 2rem auto;
+}
+
+.landing-features-list li {
+  background: #1a1a3a; /* Darker list item background */
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #e0e0e0; /* Light grey text */
+  border: 1px solid #3a3a5a; /* Darker border */
+}
+
+.landing-footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: #1a1a3a; /* Darker footer background */
+  color: #e0e0e0; /* Light grey text */
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #3a3a5a; /* Darker border */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .landing-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landing-nav-links {
+    margin-top: 1rem;
+  }
+
+  .landing-nav-links a {
+    margin: 0 10px;
+  }
+
+  .landing-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landing-buttons button {
+    margin: 10px 0;
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .landing-features-list {
+    width: 95%;
+  }
+}
